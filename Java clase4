@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		Scanner teclado = new Scanner(System.in);
-		Scanner teclado2 = new Scanner(System.in);
+		Scanner teclado2 = new Scanner(System.in); //AÑADIMOS COSAS PARA NO SE QUE
 		/*
 		 * cada hora U$D16 max 40 = 40 * 16(640) cada hora exra U$D20, ej 2 desarrollar
 		 * un sistema para ingresar: - nombre -horas trabajadas en la semana mostrar el
@@ -58,9 +57,13 @@ public class Main {
 		/*
 		 * for(inicio;condición;ajuste){ instrucciones }
 		 */
-		for (int i = 1; i <= 10; i++) {
+		for (int i = 1; i <= 50; i++) {
 			System.out.println(i);
 		}
+
+
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(i);
 	}
 
 }
